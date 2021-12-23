@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    /* Primary Colors */
+    --cyan: #2AB2AF;
+    --light-cyan: #31C4C1;
+    --bright-yellow: #C0DF34;
+    /* Neutral Colors */
+    --light-gray: #E5EFF5;
+    --grayish-blue: #98A6BD;
+
+    --karla: 'Karla', Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: var(--karla);
+}
+
+body, html{
+    background-color: var(--light-gray);
+}
+
+main{
+    padding: 50px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.join-community, .sub-monthly, .why-us{
+    padding: 45px;
+}
+
+.join-community{
+    border-radius: 5px 5px 0 0;
+
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.join-community > h1{
+    font-size: 1.8em;
+    color: var(--cyan);
+}
+
+.join-community > h2{
+    margin: 25px 0 15px;
+    font-size: 1.2em;
+    color: var(--bright-yellow);
+}
+
+.join-community > p{
+    line-height: 1.8em;
+    color: var(--grayish-blue);
+}
+
+.sub-monthly, .why-us{
+    color: var(--light-gray);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.sub-monthly > h2, .why-us > h2{
+    font-size: 1.2em;
+}
+
+.sub-monthly{
+    background-color: var(--cyan);
+    border-radius: 0 0 0 5px;
+}
+
+.sub-monthly > div > .value{
+    font-size: 2em;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.value > spam{
+    font-size: 0.5em !important;
+    font-weight: normal;
+    color: #C8DCE9;
+}
+
+.sub-monthly > button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15);
+
+    background-color: var(--bright-yellow);
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--light-gray);
+}
+
+.why-us{
+    border-radius: 0 0 5px 0;
+    background-color: var(--light-cyan);
+}
+
+.why-us > ul > li{
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.attribution { padding: 10px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 670px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .join-community{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .sub-monthly{
+        border-radius: 0;
+    }
+
+    .why-us{
+        border-radius: 0 0 5px 5px;
+    }
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --bright-orange: #E38826;
+    --dark-cyan: #006970;
+    --very-dark-cyan: #004241;
+    --transparent-white: #FFFFFFBF;
+    --very-light-gray: #F2F2F2;
+
+    --lexend-deca: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    --big-shoulders-display: 'Big Shoulders Display', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--very-light-gray);
+}
+
+section#container{
+    padding: 20px;
+    min-height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.card{
+    width: 310px;
+    padding: 40px;
+}
+
+.sedan{
+    border-radius: 10px 0 0 10px;
+    background-color: var(--bright-orange);
+}
+
+.suv{
+    background-color: var(--dark-cyan);
+}
+
+.luxury{
+    border-radius: 0 10px 10px 0;
+    background-color: #004241;
+}
+
+section.card h2{
+    margin: 30px 0;
+
+    font-family: var(--big-shoulders-display);
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--very-light-gray);
+}
+
+section.card p{
+    font-family: var(--lexend-deca);
+    font-size: 1.2em;
+    color: var(--transparent-white);
+}
+
+section.card button{
+    margin-top: 60px;
+    padding: 15px 30px;
+    border: var(--very-light-gray);
+    border-radius: 50px;
+    border: 1px solid var(--very-light-gray);
+    
+    background-color: var(--very-light-gray);
+    font-size: 1em;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sedan button{
+    color: var(--bright-orange);
+}
+
+.suv button{
+    color: var(--dark-cyan);
+}
+
+.luxury button{
+    color: var(--very-dark-cyan);
+}
+
+section.card button:hover{
+    background-color: transparent;
+    color: var(--very-light-gray);
+}
+
+.attribution{
+
+    padding: 5px;
+    font-family: var(--lexend-deca);
+    font-size: 0.8em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1032px){
+    section#container{
+        flex-direction: column;
+    }
+
+    .sedan{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px;
+    }
+}
