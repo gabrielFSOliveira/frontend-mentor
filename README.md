@@ -7,7 +7,7 @@ Repositório utilizado para arquivar todos os desafios oferecido pelo site [Fron
 ### 3 Column Preview Card Component Main
 <img width="500px" src="./imagens/3-column-preview-card-component-main.png">
 
-* [Link (Página)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/3-column-preview-card-component-main/index.html)
+* [Link (Página)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/3-column-preview-card-component-main/)
 * [Link (GitHub)](https://github.com/gabrielFSOliveira/frontend-mentor/tree/main/desafios/3-column-preview-card-component-main)
 
 <hr>
@@ -15,5 +15,13 @@ Repositório utilizado para arquivar todos os desafios oferecido pelo site [Fron
 ### Single Price Grid Component Master
 <img width="500px" src="./imagens/single-price-grid-component-master.png">
 
-* [Link (Site)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/single-price-grid-component-master/index.html) 
+* [Link (Página)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/single-price-grid-component-master/) 
 * [Link (GitHub)](https://github.com/gabrielFSOliveira/frontend-mentor/tree/main/desafios/single-price-grid-component-master)
+
+<hr>
+
+### Order summary component
+<img width="500px" src="./imagens/order-summary-component-main.png">
+
+* [Link (Página)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/order-summary-component-main/) 
+* [Link (GitHub)](https://github.com/gabrielFSOliveira/frontend-mentor/tree/main/desafios/order-summary-component-main/)
