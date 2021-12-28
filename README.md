@@ -25,3 +25,11 @@ Repositório utilizado para arquivar todos os desafios oferecido pelo site [Fron
 
 * [Link (Página)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/order-summary-component-main/) 
 * [Link (GitHub)](https://github.com/gabrielFSOliveira/frontend-mentor/tree/main/desafios/order-summary-component-main/)
+
+## Dificuldade 2(Junior)
+
+### Testimonials grid section
+<img width="500px" src="./imagens/testimonials-grid-section-main.png">
+
+* [Link (Página)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/testimonials-grid-section-main/)
+* [Link (Github)](https://github.com/gabrielFSOliveira/frontend-mentor/tree/main/desafios/testimonials-grid-section-main) 
