@@ -1,0 +1,96 @@
+.header{
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom: 1px solid #dbe5e6;
+}
+
+.header h1{
+    font:  600 2.3rem 'Poppins', Arial, Helvetica, sans-serif;
+    color: #5f6358;
+}
+
+.header p{
+    display: flex;
+    align-items: center;
+}
+
+.header p, .header a{
+    color: #5f6358;
+    font: 500 1.2rem 'Rajdhani', Arial, Helvetica, sans-serif;
+}
+
+.header a{
+    text-decoration: underline 2px #F9C7C5;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    padding: 20px 30px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+/* Apresentação */
+.presentation{
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.presentation img{
+    max-width: 50vw;
+}
+
+.presentation p{
+    color: #3b3d38;
+    max-width: 600px;
+    font: 400 1.3rem 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.nivel{
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.newbie{
+    color: #6abecd;
+}
+
+.junior{
+    color: #aad742;
+}
+
+.intermediate{
+    color: #f1b604;
+}
+
+.advanced{
+    color: #f48925;
+}
+
+.guru{
+    color: #ed2c49;
+}
+
+.mine-github{
+    font-weight: 600;
+}
+
+.mine-github:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 960px){
+    .presentation{
+        flex-wrap: wrap;
+    }
+}
