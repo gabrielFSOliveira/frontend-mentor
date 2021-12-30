@@ -1,0 +1,13 @@
+$colors: (
+    newbie: #6abecd,
+    junior: #aad742, 
+    intermediate: #f1b604,
+    advanced: #f48925,
+    guru: #ed2c49
+);
+
+@each $key, $color in $colors {
+    .#{$key}{
+        color: $color
+    }
+}

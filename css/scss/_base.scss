@@ -1,0 +1,18 @@
+$main-color: #3b3d38;
+$border-color: #dbe5e6;
+
+$font-poppins: 'Poppins', Arial, Helvetica, sans-serif;
+$font-rajdhani: 'Rajdhani', Arial, Helvetica, sans-serif;
+$font-barlow: 'Barlow', Arial, Helvetica, sans-serif;
+
+@mixin flex-display($isColumn: false) {
+    display: flex;
+    align-items: center;
+    @if $isColumn {
+        flex-direction: column;
+    }
+}
+
+@function border($weight){
+    @return #{$weight}px solid $border-color
+}

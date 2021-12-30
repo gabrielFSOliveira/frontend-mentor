@@ -1,0 +1,22 @@
+.header{
+    padding: 15px;
+    border-bottom: border(1);
+
+    @include flex-display(true);
+
+    h1{
+        font:  600 2.3rem $font-poppins;
+    }
+
+    p{
+        display: flex;
+        align-items: center;
+        font: 500 1.2rem $font-rajdhani;
+    }
+
+    a{
+        text-decoration: underline 2px #F9C7C5;
+        display: flex;
+        align-items: center;
+    }
+}

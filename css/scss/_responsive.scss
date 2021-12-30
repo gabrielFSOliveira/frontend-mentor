@@ -1,0 +1,11 @@
+@media screen and (max-width: 960px){
+    .presentation{
+        flex-wrap: wrap;
+    }
+
+    .sect-nivel {
+        .challenges{
+            grid-template-columns: 1fr;
+        }
+    }
+}

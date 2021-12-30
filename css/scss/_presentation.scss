@@ -1,0 +1,21 @@
+.presentation{
+    padding: 10px;
+
+    @include flex-display();
+    justify-content: space-evenly;
+    gap: 50px;
+
+    img{
+        max-width: 50vw;
+    }
+
+    p{
+        max-width: 600px;
+        font: 400 1.3rem $font-poppins;
+    }
+
+    .nivel{
+        font-family: $font-rajdhani;
+        font-weight: 600;
+    }
+}

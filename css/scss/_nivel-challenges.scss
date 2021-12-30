@@ -1,0 +1,14 @@
+.sect-nivel {
+    h2{
+        font: 700 3.5rem $font-barlow;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .challenges{
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
