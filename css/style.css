@@ -149,6 +149,17 @@
     border-left: 1px solid #dbe5e6;
 }
 
+.footer{
+    border-top: 1px solid #dbe5e6;
+    padding: 20px 0;
+}
+
+.footer p{
+    font: 500 1.5rem 'Poppins', Arial, Helvetica, sans-serif;
+    color: #3b3d38;
+    text-align: center;
+}
+
 @media screen and (max-width: 960px){
     .presentation{
         flex-wrap: wrap;
