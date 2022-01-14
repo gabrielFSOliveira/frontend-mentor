@@ -26,6 +26,12 @@ Repositório utilizado para arquivar todos os desafios oferecido pelo site [Fron
 * [Link (Página)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/order-summary-component-main/) 
 * [Link (GitHub)](https://github.com/gabrielFSOliveira/frontend-mentor/tree/main/desafios/order-summary-component-main/)
 
+### NFT Preview Card Component
+<img width="500px" src="./imagens/desafios-imagens/nft-preview-card-component.png">
+
+* [Link (Página)](https://gabrielfsoliveira.github.io/frontend-mentor/desafios/nft-preview-card-component-main/) 
+* [Link (GitHub)](https://github.com/gabrielFSOliveira/frontend-mentor/tree/main/desafios/nft-preview-card-component-main)
+
 ## Dificuldade 2(Junior)
 
 ### Testimonials grid section
